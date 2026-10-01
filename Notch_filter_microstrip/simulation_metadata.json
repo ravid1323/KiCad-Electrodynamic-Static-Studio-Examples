@@ -1,0 +1,406 @@
+{
+    "project_info": "microstrip",
+    "simulation_type": "2.5D",
+    "default_antipad_clearance_mm": 0.25,
+    "edge_cuts": [
+        {
+            "start_x": 198.8,
+            "start_y": 110.5,
+            "end_x": 98.2,
+            "end_y": 91.5
+        }
+    ],
+    "stackup": [
+        {
+            "layer_name": "F.SilkS",
+            "type": "Dielectric",
+            "thickness_mm": 0.0,
+            "material": "",
+            "epsilon_r": 1.0,
+            "loss_tangent": 0.0
+        },
+        {
+            "layer_name": "F.Paste",
+            "type": "Dielectric",
+            "thickness_mm": 0.0,
+            "material": "",
+            "epsilon_r": 1.0,
+            "loss_tangent": 0.0
+        },
+        {
+            "layer_name": "F.Mask",
+            "type": "Dielectric",
+            "thickness_mm": 0.01,
+            "material": "",
+            "epsilon_r": 1.0,
+            "loss_tangent": 0.0
+        },
+        {
+            "layer_name": "F.Cu",
+            "type": "Copper",
+            "thickness_mm": 0.08,
+            "material": "Copper",
+            "epsilon_r": 0.0,
+            "loss_tangent": 0.0
+        },
+        {
+            "layer_name": "dielectric 1",
+            "type": "Dielectric",
+            "thickness_mm": 0.254,
+            "material": "FR4",
+            "epsilon_r": 3.66,
+            "loss_tangent": 0.0
+        },
+        {
+            "layer_name": "B.Cu",
+            "type": "Copper",
+            "thickness_mm": 0.08,
+            "material": "Copper",
+            "epsilon_r": 0.0,
+            "loss_tangent": 0.0
+        },
+        {
+            "layer_name": "B.Mask",
+            "type": "Dielectric",
+            "thickness_mm": 0.01,
+            "material": "",
+            "epsilon_r": 1.0,
+            "loss_tangent": 0.0
+        },
+        {
+            "layer_name": "B.Paste",
+            "type": "Dielectric",
+            "thickness_mm": 0.0,
+            "material": "",
+            "epsilon_r": 1.0,
+            "loss_tangent": 0.0
+        },
+        {
+            "layer_name": "B.SilkS",
+            "type": "Dielectric",
+            "thickness_mm": 0.0,
+            "material": "",
+            "epsilon_r": 1.0,
+            "loss_tangent": 0.0
+        }
+    ],
+    "target_nets": [
+        {
+            "name": "/Comm",
+            "clearance_mm": 0.25,
+            "tracks": [
+                {
+                    "start_x": 148.5,
+                    "start_y": 105.0,
+                    "end_x": 148.5,
+                    "end_y": 93.0,
+                    "width_mm": 0.6,
+                    "layer": "F.Cu"
+                },
+                {
+                    "start_x": 98.5,
+                    "start_y": 105.0,
+                    "end_x": 148.5,
+                    "end_y": 105.0,
+                    "width_mm": 0.6,
+                    "layer": "F.Cu"
+                },
+                {
+                    "start_x": 148.5,
+                    "start_y": 105.0,
+                    "end_x": 198.5,
+                    "end_y": 105.0,
+                    "width_mm": 0.6,
+                    "layer": "F.Cu"
+                }
+            ],
+            "vias": [],
+            "tht_pads": [],
+            "zones": [],
+            "smd_pads": [
+                {
+                    "kiid": "d179c457-1ff5-4706-be5d-314fc784be87",
+                    "id": "TP3.1",
+                    "pad_num": "1",
+                    "parent_ref": "TP3",
+                    "net_name": "/Comm",
+                    "x": 198.5,
+                    "y": 105.0,
+                    "size_mm": 0.6,
+                    "drill_mm": 0.0,
+                    "layer": "F.Cu",
+                    "pad_shapes": [
+                        {
+                            "layer": "F.Cu",
+                            "shape": "PSS_RECTANGLE",
+                            "size_x_mm": 0.6,
+                            "size_y_mm": 0.6,
+                            "offset_x": 0.0,
+                            "offset_y": 0.0
+                        }
+                    ]
+                },
+                {
+                    "kiid": "b70029cb-e9d7-4d2e-ad7f-8a48564badd0",
+                    "id": "TP2.1",
+                    "pad_num": "1",
+                    "parent_ref": "TP2",
+                    "net_name": "/Comm",
+                    "x": 148.5,
+                    "y": 93.0,
+                    "size_mm": 0.6,
+                    "drill_mm": 0.0,
+                    "layer": "F.Cu",
+                    "pad_shapes": [
+                        {
+                            "layer": "F.Cu",
+                            "shape": "PSS_RECTANGLE",
+                            "size_x_mm": 0.6,
+                            "size_y_mm": 0.6,
+                            "offset_x": 0.0,
+                            "offset_y": 0.0
+                        }
+                    ]
+                },
+                {
+                    "kiid": "fbee45e7-a070-4dec-a3da-cb63c3932b42",
+                    "id": "TP4.1",
+                    "pad_num": "1",
+                    "parent_ref": "TP4",
+                    "net_name": "/Comm",
+                    "x": 148.5,
+                    "y": 105.0,
+                    "size_mm": 0.6,
+                    "drill_mm": 0.0,
+                    "layer": "F.Cu",
+                    "pad_shapes": [
+                        {
+                            "layer": "F.Cu",
+                            "shape": "PSS_RECTANGLE",
+                            "size_x_mm": 0.6,
+                            "size_y_mm": 0.6,
+                            "offset_x": 0.0,
+                            "offset_y": 0.0
+                        }
+                    ]
+                },
+                {
+                    "kiid": "c9f99873-e1bf-43c6-8bd5-ba4131691f59",
+                    "id": "TP1.1",
+                    "pad_num": "1",
+                    "parent_ref": "TP1",
+                    "net_name": "/Comm",
+                    "x": 98.5,
+                    "y": 105.0,
+                    "size_mm": 0.6,
+                    "drill_mm": 0.0,
+                    "layer": "F.Cu",
+                    "pad_shapes": [
+                        {
+                            "layer": "F.Cu",
+                            "shape": "PSS_RECTANGLE",
+                            "size_x_mm": 0.6,
+                            "size_y_mm": 0.6,
+                            "offset_x": 0.0,
+                            "offset_y": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GNDREF",
+            "clearance_mm": 0.25,
+            "tracks": [],
+            "vias": [],
+            "tht_pads": [],
+            "zones": [
+                {
+                    "layer": "B.Cu",
+                    "points": [
+                        {
+                            "x": 198.742539,
+                            "y": 91.520185
+                        },
+                        {
+                            "x": 198.788294,
+                            "y": 91.572989
+                        },
+                        {
+                            "x": 198.7995,
+                            "y": 91.6245
+                        },
+                        {
+                            "x": 198.7995,
+                            "y": 110.3755
+                        },
+                        {
+                            "x": 198.779815,
+                            "y": 110.442539
+                        },
+                        {
+                            "x": 198.727011,
+                            "y": 110.488294
+                        },
+                        {
+                            "x": 198.6755,
+                            "y": 110.4995
+                        },
+                        {
+                            "x": 98.3245,
+                            "y": 110.4995
+                        },
+                        {
+                            "x": 98.257461,
+                            "y": 110.479815
+                        },
+                        {
+                            "x": 98.211706,
+                            "y": 110.427011
+                        },
+                        {
+                            "x": 98.2005,
+                            "y": 110.3755
+                        },
+                        {
+                            "x": 98.2005,
+                            "y": 91.6245
+                        },
+                        {
+                            "x": 98.220185,
+                            "y": 91.557461
+                        },
+                        {
+                            "x": 98.272989,
+                            "y": 91.511706
+                        },
+                        {
+                            "x": 98.3245,
+                            "y": 91.5005
+                        },
+                        {
+                            "x": 198.6755,
+                            "y": 91.5005
+                        }
+                    ],
+                    "holes": []
+                }
+            ],
+            "smd_pads": []
+        }
+    ],
+    "sim_layers": [
+        "F.Cu",
+        "B.Cu"
+    ],
+    "manual_ports": {
+        "port_1": {
+            "type": "Microstrip (MSL)",
+            "impedance": 50.0,
+            "msl_length": 50.0,
+            "feed_shift": 4.48,
+            "meas_plane_shift": 16.67,
+            "mode": "Single-Ended",
+            "signal_layer": "F.Cu",
+            "reference_layer": "B.Cu",
+            "positive_terminal": {
+                "net": "/Comm",
+                "pad": "TP1.1",
+                "kiid": "c9f99873-e1bf-43c6-8bd5-ba4131691f59",
+                "prop_dir": "x",
+                "direction_sign": 1
+            }
+        },
+        "port_2": {
+            "type": "Microstrip (MSL)",
+            "impedance": 50.0,
+            "msl_length": 50.0,
+            "feed_shift": 4.48,
+            "meas_plane_shift": 16.67,
+            "mode": "Single-Ended",
+            "signal_layer": "F.Cu",
+            "reference_layer": "B.Cu",
+            "positive_terminal": {
+                "net": "/Comm",
+                "pad": "TP3.1",
+                "kiid": "d179c457-1ff5-4706-be5d-314fc784be87",
+                "prop_dir": "x",
+                "direction_sign": -1
+            }
+        }
+    },
+    "excitation_type": "Gaussian Pulse",
+    "f_start_ghz": 0.1,
+    "f_stop_ghz": 10.0,
+    "f_max_ghz": 12.0,
+    "f_num_points": 1001,
+    "energy_limit_db": -40.0,
+    "max_timesteps": 100000,
+    "pml_cells": 8,
+    "boundary_conditions": {
+        "x_neg": "PML",
+        "x_pos": "PML",
+        "y_neg": "MUR",
+        "y_pos": "MUR",
+        "z_neg": "PEC",
+        "z_pos": "PML"
+    },
+    "ambient_epsilon": 1.0,
+    "ambient_mue": 1.0,
+    "use_pec_copper": true,
+    "threads": 0,
+    "assume_symmetry": false,
+    "parallel_sim": false,
+    "use_wsl2": true,
+    "mesh_mode": "Advanced",
+    "crop_to_active_traces": true,
+    "air_margins_mm": {
+        "x_neg": 0.0,
+        "x_pos": 0.0,
+        "y_neg": 0.0,
+        "y_pos": 0.0,
+        "z_neg": 0.0,
+        "z_pos": 4.0
+    },
+    "min_cell_size_mm": 0.04,
+    "mesh_global": {
+        "x": {
+            "max_size": 1.2,
+            "growth": "Exponential",
+            "ratio": 1.3
+        },
+        "y": {
+            "max_size": 1.2,
+            "growth": "Exponential",
+            "ratio": 1.3
+        },
+        "z": {
+            "max_size": 0.5,
+            "growth": "Exponential",
+            "ratio": 1.2
+        }
+    },
+    "mesh_feature": {
+        "x_cells": 3,
+        "y_cells": 3,
+        "z_cells": 2
+    },
+    "mesh_gap": {
+        "x_cells": 3,
+        "y_cells": 3,
+        "z_cells": 1
+    },
+    "mesh_locks": {
+        "conductor": true,
+        "via": true,
+        "pad": true,
+        "dielectric": true,
+        "port": true
+    },
+    "discrete_components": [],
+    "dc_analysis": {},
+    "dc_convergence": {
+        "tolerance": 1e-09,
+        "max_iterations": 5000
+    }
+}

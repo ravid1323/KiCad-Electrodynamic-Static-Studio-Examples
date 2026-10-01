@@ -1,0 +1,25 @@
+{
+    "networks": {
+        "P5V": {
+            "system_conditions": {
+                "vrm_v_nominal": 5.0,
+                "load_current_A": 10.0
+            },
+            "power_net_vcc": {
+                "v_sink_avg": 4.991450637180328,
+                "v_drop": 0.008549362819671558,
+                "r_dc_ohms": 0.0008549362819671557
+            },
+            "return_net_gnd": {
+                "v_sink_avg": 0.0012572835479452056,
+                "v_bounce": 0.0012572835479452056,
+                "r_dc_ohms": 0.00012572835479452056
+            },
+            "load_actual": {
+                "v_differential": 4.9901933536323835,
+                "total_pdn_drop": 0.009806646367616764,
+                "total_loop_r_ohms": 0.0009806646367616764
+            }
+        }
+    }
+}
